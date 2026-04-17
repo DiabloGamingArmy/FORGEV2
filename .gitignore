@@ -1,0 +1,9 @@
+# Ignore generated builds
+Builds/
+
+# Ignore IDE specific files
+.vs/
+*.user
+*.suo
+*.xcodeproj
+*.xcworkspace

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="gKoQJl" name="FORGE V2" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="W6Y10I" name="FORGE V2">
+    <GROUP id="{C4D0B677-258E-7DD4-A963-81E71911C160}" name="Source">
+      <FILE id="aHsuyB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="IPMarn" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="FAo08S" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="riWtG2" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_analytics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_animation" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors_headless" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_box2d" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_javascript" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_midi_ci" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_product_unlocking" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <ANDROIDSTUDIO targetFolder="Builds/Android">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FORGE V2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FORGE V2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_animation" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_javascript" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../FORGE/JUCE/modules"/>
+      </MODULEPATHS>
+    </ANDROIDSTUDIO>
+    <VS2026 targetFolder="Builds/VisualStudio2026">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FORGE V2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FORGE V2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_animation" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_javascript" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../FORGE/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2026>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FORGE V2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FORGE V2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_animation" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_javascript" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../FORGE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FORGE V2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FORGE V2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_analytics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_animation" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors_headless" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_box2d" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_javascript" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_midi_ci" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_product_unlocking" path="../../FORGE/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../FORGE/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
